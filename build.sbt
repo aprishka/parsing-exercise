@@ -10,3 +10,5 @@ lazy val root = (project in file("."))
     name := "parsing",
     libraryDependencies ++= Seq(scalaTest % Test, scalacheck % Test)
   )
+
+libraryDependencies += "com.github.j-mie6" %% "parsley" % "3.3.10"
